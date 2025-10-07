@@ -88,7 +88,7 @@
         style="background-image: url(<?=base_url()?>assets/home/images/shapes/experience-two-shape-1.jpg);"></div>
     <div class="container">
         <div class="section-title text-center"> <span class="section-title__tagline">About Us</span>
-            <h2 class="section-title__title">We Have More Than <strong>12 Years Experience in RO Service</strong>
+            <h2 class="section-title__title">We Have More Than <strong>10 Years Experience in RO Service</strong>
                 Business both for Domestic and Commercial </h2>
         </div>
         <div class="row">

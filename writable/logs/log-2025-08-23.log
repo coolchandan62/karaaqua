@@ -1,0 +1,20 @@
+CRITICAL - 2025-08-23 09:42:28 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/edit-profile]
+in APPPATH\Controllers\Dashboard.php on line 70.
+ 1 APPPATH\Controllers\Dashboard.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'I:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->editProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-23 09:42:46 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/edit-profile]
+in APPPATH\Controllers\Dashboard.php on line 70.
+ 1 APPPATH\Controllers\Dashboard.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'I:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->editProfile()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

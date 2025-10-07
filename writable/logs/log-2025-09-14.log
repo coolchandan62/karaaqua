@@ -1,0 +1,40 @@
+CRITICAL - 2025-09-14 23:44:59 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "closeInlineVideo()"
+[Method: GET, Route: closeInlineVideo%28%29]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('closeInlineVideo()')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('closeInlineVideo()')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-14 23:47:26 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: service/email_service.py]
+in APPPATH/Controllers/Home.php on line 89.
+ 1 APPPATH/Controllers/Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/home2/karaaqua/public_html/app/Controllers/Home.php', 89)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail('email_service.py')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-14 23:47:28 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: service/email_service.py]
+in APPPATH/Controllers/Home.php on line 89.
+ 1 APPPATH/Controllers/Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/home2/karaaqua/public_html/app/Controllers/Home.php', 89)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail('email_service.py')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-14 23:47:32 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: service/email_service.py]
+in APPPATH/Controllers/Home.php on line 89.
+ 1 APPPATH/Controllers/Home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/home2/karaaqua/public_html/app/Controllers/Home.php', 89)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail('email_service.py')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

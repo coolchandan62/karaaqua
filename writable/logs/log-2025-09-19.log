@@ -1,0 +1,20 @@
+CRITICAL - 2025-09-19 17:09:34 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: product/kara-aqualine-series-1002]
+in APPPATH/Controllers/Home.php on line 459.
+ 1 APPPATH/Controllers/Home.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/home2/karaaqua/public_html/app/Controllers/Home.php', 459)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->productDetails('kara-aqualine-series-1002')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 22:07:39 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH/Controllers/Home.php on line 194.
+ 1 APPPATH/Controllers/Home.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/home2/karaaqua/public_html/app/Controllers/Home.php', 194)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->blog('hardwork-is-needed-for-plumbing')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

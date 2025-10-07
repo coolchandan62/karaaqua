@@ -1,0 +1,361 @@
+CRITICAL - 2025-05-15 00:02:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: service/commercial-ro-pla]
+in APPPATH/Controllers/Home.php on line 84.
+ 1 APPPATH/Controllers/Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 03:01:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH/Controllers/Home.php on line 185.
+ 1 APPPATH/Controllers/Home.php(185): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->blog()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-05-15 07:14:11 --> mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO' in /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u324612448/domains/karaaqua.com/public_html/app/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u324612448/domains/karaaqua.com/public_html/app/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+#6 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+#7 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u324612448/domains/karaaqua.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-05-15 07:14:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+[Method: POST, Route: saveRoEnquiry]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:14:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:14:11 --> [Caused by] mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-05-15 07:14:23 --> mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO' in /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u324612448/domains/karaaqua.com/public_html/app/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u324612448/domains/karaaqua.com/public_html/app/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+#6 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+#7 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u324612448/domains/karaaqua.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-05-15 07:14:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+[Method: POST, Route: saveRoEnquiry]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:14:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:14:23 --> [Caused by] mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:14:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH/Controllers/Home.php on line 84.
+ 1 APPPATH/Controllers/Home.php(84): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-05-15 07:16:30 --> mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO' in /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u324612448/domains/karaaqua.com/public_html/app/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u324612448/domains/karaaqua.com/public_html/app/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+#6 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+#7 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u324612448/domains/karaaqua.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-05-15 07:16:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+[Method: POST, Route: saveRoEnquiry]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:16:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:16:30 --> [Caused by] mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-05-15 07:17:13 --> mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO' in /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u324612448/domains/karaaqua.com/public_html/app/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u324612448/domains/karaaqua.com/public_html/app/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+#6 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+#7 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u324612448/domains/karaaqua.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-05-15 07:17:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+[Method: POST, Route: saveRoEnquiry]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:17:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 07:17:13 --> [Caused by] mysqli_sql_exception: Unknown column 'comment' in 'INSERT INTO'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/HomeModel.php(194): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH/Controllers/Home.php(460): App\Models\HomeModel->saveRoEnquiry()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->saveRoEnquiry()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 09:09:38 --> ErrorException: Undefined variable $body_script
+[Method: GET, Route: product/commercial-water-softener]
+in APPPATH/Views/home/common/header.php on line 44.
+ 1 APPPATH/Views/home/common/header.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u324612448/domains/karaaqua.com/public_html/app/Views/home/common/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BaseController.php(72): view()
+ 6 APPPATH/Controllers/Home.php(299): App\Controllers\BaseController->frontendLoad()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 09:11:29 --> ErrorException: Undefined variable $body_script
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH/Views/home/common/header.php on line 44.
+ 1 APPPATH/Views/home/common/header.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u324612448/domains/karaaqua.com/public_html/app/Views/home/common/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BaseController.php(72): view()
+ 6 APPPATH/Controllers/Home.php(299): App\Controllers\BaseController->frontendLoad()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 09:11:31 --> ErrorException: Undefined variable $body_script
+[Method: GET, Route: product/domestic-water-softener]
+in APPPATH/Views/home/common/header.php on line 44.
+ 1 APPPATH/Views/home/common/header.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u324612448/domains/karaaqua.com/public_html/app/Views/home/common/header.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BaseController.php(72): view()
+ 6 APPPATH/Controllers/Home.php(299): App\Controllers\BaseController->frontendLoad()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 09:26:21 --> ErrorException: Undefined variable $page
+[Method: GET, Route: admin/blog/edit-blog/4]
+in APPPATH/Views/admin/Blog/editBlog.php on line 130.
+ 1 APPPATH/Views/admin/Blog/editBlog.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u324612448/domains/karaaqua.com/public_html/app/Views/admin/Blog/editBlog.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BaseController.php(65): view()
+ 6 APPPATH/Controllers/Admin/Blog.php(73): App\Controllers\BaseController->adminFrontendLoad()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Blog->editBlog()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 09:26:23 --> ErrorException: Undefined variable $page
+[Method: GET, Route: admin/blog/edit-blog/4]
+in APPPATH/Views/admin/Blog/editBlog.php on line 130.
+ 1 APPPATH/Views/admin/Blog/editBlog.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u324612448/domains/karaaqua.com/public_html/app/Views/admin/Blog/editBlog.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BaseController.php(65): view()
+ 6 APPPATH/Controllers/Admin/Blog.php(73): App\Controllers\BaseController->adminFrontendLoad()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Blog->editBlog()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 10:16:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: service/industrial-water-softener]
+in APPPATH/Controllers/Home.php on line 86.
+ 1 APPPATH/Controllers/Home.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 12:00:40 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: blog/hardwork-is-needed-for-plumbing]
+in APPPATH/Controllers/Home.php on line 192.
+ 1 APPPATH/Controllers/Home.php(192): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->blog()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 12:16:34 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: service/waste-water-treatment-plant]
+in APPPATH/Controllers/Home.php on line 86.
+ 1 APPPATH/Controllers/Home.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-05-15 21:32:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: service/domestic-water-softener]
+in APPPATH/Controllers/Home.php on line 86.
+ 1 APPPATH/Controllers/Home.php(86): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

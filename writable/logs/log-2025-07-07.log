@@ -1,0 +1,60 @@
+CRITICAL - 2025-07-07 11:56:18 --> ErrorException: Undefined variable $orderData
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 15.
+ 1 APPPATH\Views\home\payment.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderData', 'I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(185): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-07 12:02:24 --> ErrorException: Undefined variable $orderData
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 15.
+ 1 APPPATH\Views\home\payment.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderData', 'I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(185): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-07 12:04:01 --> ErrorException: Undefined variable $orderData
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 15.
+ 1 APPPATH\Views\home\payment.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderData', 'I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(185): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-07 12:04:15 --> ErrorException: Undefined variable $orderData
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 15.
+ 1 APPPATH\Views\home\payment.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $orderData', 'I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('I:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(185): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,118 @@
+ERROR - 2025-04-18 06:26:39 --> mysqli_sql_exception: Table 'u324612448_kara.faq' doesn't exist in /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u324612448/domains/karaaqua.com/public_html/app/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u324612448/domains/karaaqua.com/public_html/app/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+#6 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+#7 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u324612448/domains/karaaqua.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-04-18 06:26:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'u324612448_kara.faq' doesn't exist
+[Method: GET, Route: admin/faq/create-faq/1/2]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-18 06:26:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'u324612448_kara.faq' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-18 06:26:39 --> [Caused by] mysqli_sql_exception: Table 'u324612448_kara.faq' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2025-04-18 06:26:41 --> mysqli_sql_exception: Table 'u324612448_kara.faq' doesn't exist in /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/u324612448/domains/karaaqua.com/public_html/system/Database/MySQLi/Connection.php(312): mysqli->query()
+#1 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u324612448/domains/karaaqua.com/public_html/system/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u324612448/domains/karaaqua.com/public_html/app/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u324612448/domains/karaaqua.com/public_html/app/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+#6 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+#7 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 /home/u324612448/domains/karaaqua.com/public_html/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/u324612448/domains/karaaqua.com/public_html/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 /home/u324612448/domains/karaaqua.com/public_html/index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2025-04-18 06:26:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'u324612448_kara.faq' doesn't exist
+[Method: GET, Route: admin/faq/create-faq/1/2]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-18 06:26:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'u324612448_kara.faq' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-18 06:26:41 --> [Caused by] mysqli_sql_exception: Table 'u324612448_kara.faq' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Models/Admin/FaqModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH/Controllers/Admin/Faq.php(24): App\Models\Admin\FaqModel->faqListByType()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Admin\Faq->createFaq()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-04-18 11:13:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: service/industrial-ro-plant]
+in APPPATH/Controllers/Home.php on line 81.
+ 1 APPPATH/Controllers/Home.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->serviceDetail()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

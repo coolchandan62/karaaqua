@@ -1,0 +1,276 @@
+CRITICAL - 2025-06-20 05:49:24 --> ErrorException: Undefined array key "razorpay_order_id"
+[Method: POST, Route: verifyPayment]
+in APPPATH\Controllers\Payment.php on line 184.
+ 1 APPPATH\Controllers\Payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "razorpay_order_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 184)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 05:50:34 --> ErrorException: Undefined array key "razorpay_order_id"
+[Method: POST, Route: verifyPayment]
+in APPPATH\Controllers\Payment.php on line 184.
+ 1 APPPATH\Controllers\Payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "razorpay_order_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 184)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 05:56:08 --> ErrorException: Undefined array key "razorpay_order_id"
+[Method: POST, Route: verifyPayment]
+in APPPATH\Controllers\Payment.php on line 184.
+ 1 APPPATH\Controllers\Payment.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "razorpay_order_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 184)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-20 06:02:45 --> Payment signature verification failed: Invalid signature passed
+CRITICAL - 2025-06-20 06:05:51 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 6.
+ 1 APPPATH\Views\home\payment.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(332): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:06:27 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 6.
+ 1 APPPATH\Views\home\payment.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(332): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:11:41 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 6.
+ 1 APPPATH\Views\home\payment.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(332): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:15:02 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: saveorder]
+in APPPATH\Views\home\payment.php on line 4.
+ 1 APPPATH\Views\home\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\Payment.php(324): view('home/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:19:17 --> ErrorException: Undefined array key "first_name"
+[Method: POST, Route: saveorder]
+in APPPATH\Views\home\payment.php on line 24.
+ 1 APPPATH\Views\home\payment.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "first_name"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\Payment.php(304): view('home/payment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-20 06:21:45 --> mysqli_sql_exception: Unknown column 'payment_id' in 'field list' in E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `order_i...', 0)
+#1 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `order_i...')
+#2 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `order_i...')
+#3 E:\xampp\htdocs\kara-aqua\system\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `order_i...', Array, false)
+#4 E:\xampp\htdocs\kara-aqua\app\Models\HomeModel.php(262): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\kara-aqua\app\Controllers\Payment.php(198): App\Models\HomeModel->updateOrderInfo('17', Array)
+#6 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+#7 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#8 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\kara-aqua\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\kara-aqua\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp\htdocs\kara-aqua\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-20 06:21:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'payment_id' in 'field list'
+[Method: POST, Route: verifyPayment]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `order_info` SET `payment_id` = :payment_id:, `order_id` = :order_id:, `status` = :status:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\HomeModel.php(262): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Payment.php(198): App\Models\HomeModel->updateOrderInfo('17', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:21:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'payment_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `order_info` SET `payment_id` = \'pay_QjLjNFHlrYMUGT\', `order_id` = \'order_QjLjDkYGN3viLb\', `status` = \'paid\'
+WHERE `id` = \'17\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `order_info` SET `payment_id` = \'pay_QjLjNFHlrYMUGT\', `order_id` = \'order_QjLjDkYGN3viLb\', `status` = \'paid\'
+WHERE `id` = \'17\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `order_info` SET `payment_id` = :payment_id:, `order_id` = :order_id:, `status` = :status:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH\Models\HomeModel.php(262): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Payment.php(198): App\Models\HomeModel->updateOrderInfo('17', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:21:45 --> [Caused by] mysqli_sql_exception: Unknown column 'payment_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `order_info` SET `payment_id` = \'pay_QjLjNFHlrYMUGT\', `order_id` = \'order_QjLjDkYGN3viLb\', `status` = \'paid\'
+WHERE `id` = \'17\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `order_info` SET `payment_id` = \'pay_QjLjNFHlrYMUGT\', `order_id` = \'order_QjLjDkYGN3viLb\', `status` = \'paid\'
+WHERE `id` = \'17\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `order_info` SET `payment_id` = \'pay_QjLjNFHlrYMUGT\', `order_id` = \'order_QjLjDkYGN3viLb\', `status` = \'paid\'
+WHERE `id` = \'17\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `order_info` SET `payment_id` = :payment_id:, `order_id` = :order_id:, `status` = :status:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\HomeModel.php(262): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Payment.php(198): App\Models\HomeModel->updateOrderInfo('17', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->verifyPayment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:29:47 --> ErrorException: Undefined variable $razorpay_order_id
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 4.
+ 1 APPPATH\Views\home\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $razorpay_order_id', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(283): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:29:47 --> ErrorException: Undefined variable $razorpay_order_id
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 4.
+ 1 APPPATH\Views\home\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $razorpay_order_id', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(283): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:29:48 --> ErrorException: Undefined variable $razorpay_order_id
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 4.
+ 1 APPPATH\Views\home\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $razorpay_order_id', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(283): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 06:33:14 --> ErrorException: Undefined variable $razorpay_order_id
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 4.
+ 1 APPPATH\Views\home\payment.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $razorpay_order_id', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(283): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 07:06:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 27.
+ 1 APPPATH\Views\home\checkout.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(88): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 07:44:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 27.
+ 1 APPPATH\Views\home\checkout.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(89): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 07:46:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Controllers\Payment.php on line 92.
+ 1 APPPATH\Controllers\Payment.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-20 07:47:12 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Controllers\Payment.php on line 92.
+ 1 APPPATH\Controllers\Payment.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

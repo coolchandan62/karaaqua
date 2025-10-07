@@ -1,0 +1,118 @@
+CRITICAL - 2025-06-18 10:43:24 --> ArgumentCountError: Too few arguments to function App\Models\HomeModel::loginVerify(), 1 passed in E:\xampp\htdocs\kara-aqua\app\Controllers\Home.php on line 795 and exactly 2 expected
+[Method: POST, Route: userLogin]
+in APPPATH\Models\HomeModel.php on line 244.
+ 1 APPPATH\Controllers\Home.php(795): App\Models\HomeModel->loginVerify('pm402632@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->userLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 11:16:03 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: createOrder]
+in APPPATH\Controllers\Home.php on line 831.
+ 1 APPPATH\Controllers\Home.php(831): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Home.php', 831)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 11:25:16 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: createOrder]
+in APPPATH\Controllers\Home.php on line 831.
+ 1 APPPATH\Controllers\Home.php(831): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Home.php', 831)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 11:25:17 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: createOrder]
+in APPPATH\Controllers\Home.php on line 831.
+ 1 APPPATH\Controllers\Home.php(831): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Home.php', 831)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 11:25:23 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: createOrder]
+in APPPATH\Controllers\Home.php on line 831.
+ 1 APPPATH\Controllers\Home.php(831): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Home.php', 831)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 11:29:54 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: createOrder]
+in APPPATH\Controllers\Home.php on line 839.
+ 1 APPPATH\Controllers\Home.php(839): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Home.php', 839)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 11:48:53 --> ErrorException: Undefined array key "id"
+[Method: POST, Route: createOrder]
+in APPPATH\Controllers\Home.php on line 838.
+ 1 APPPATH\Controllers\Home.php(838): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Home.php', 838)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 13:13:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(112): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 13:14:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(112): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 13:14:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(112): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 13:14:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(112): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

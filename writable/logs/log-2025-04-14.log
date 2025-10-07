@@ -1,0 +1,1407 @@
+ERROR - 2025-04-14 06:00:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'u324612448_kara', Object(SensitiveParameterValue), 'u324612448_kara', 3308, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-14 06:00:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`
+WHERE `status` = :status:
+ LIMIT 3', [...], false)
+ 3 APPPATH\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-14 06:00:31 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3308, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-14 06:00:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`
+WHERE `status` = :status:
+ LIMIT 3', [...], false)
+ 3 APPPATH\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-14 06:00:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'kara', 3308, '', 0)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp New\htdocs\kara\app\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp New\htdocs\kara\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp New\htdocs\kara\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp New\htdocs\kara\app\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp New\htdocs\kara\app\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+#5 E:\xampp New\htdocs\kara\system\CodeIgniter.php(933): App\Controllers\Home->index()
+#6 E:\xampp New\htdocs\kara\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp New\htdocs\kara\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp New\htdocs\kara\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp New\htdocs\kara\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 E:\xampp New\htdocs\kara\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-14 06:00:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product`
+WHERE `status` = :status:
+ LIMIT 3', [...], false)
+ 3 APPPATH\Models\HomeModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(24): App\Models\HomeModel->productList(3)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:10:40 --> Error: Class "App\Controllers\Admin\BaseControllers" not found
+[Method: GET, Route: admin/service]
+in APPPATH\Controllers\Admin\Service.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Service')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Service')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Service', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:11:20 --> Error: Class "App\Controllers\Admin\BaseControllers" not found
+[Method: GET, Route: admin/service]
+in APPPATH\Controllers\Admin\Service.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Service')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Service')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Service', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:11:20 --> Error: Class "App\Controllers\Admin\BaseControllers" not found
+[Method: GET, Route: admin/service]
+in APPPATH\Controllers\Admin\Service.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Service')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Service')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Service', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:11:20 --> Error: Class "App\Controllers\Admin\BaseControllers" not found
+[Method: GET, Route: admin/service]
+in APPPATH\Controllers\Admin\Service.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Service')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Service')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Service', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:11:20 --> Error: Class "App\Controllers\Admin\BaseControllers" not found
+[Method: GET, Route: admin/service]
+in APPPATH\Controllers\Admin\Service.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Service')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Service')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Service', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:11:20 --> Error: Class "App\Controllers\Admin\BaseControllers" not found
+[Method: GET, Route: admin/service]
+in APPPATH\Controllers\Admin\Service.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin\\Service')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin\\Service')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Admin\\Service', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:14:35 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getResultArry()
+[Method: GET, Route: admin/service]
+in APPPATH\Models\Admin\ServiceModel.php on line 15.
+ 1 APPPATH\Controllers\Admin\Service.php(13): App\Models\Admin\ServiceModel->serviceList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:14:48 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getResultArry()
+[Method: GET, Route: admin/service]
+in APPPATH\Models\Admin\ServiceModel.php on line 15.
+ 1 APPPATH\Controllers\Admin\Service.php(13): App\Models\Admin\ServiceModel->serviceList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:14:49 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getResultArry()
+[Method: GET, Route: admin/service]
+in APPPATH\Models\Admin\ServiceModel.php on line 15.
+ 1 APPPATH\Controllers\Admin\Service.php(13): App\Models\Admin\ServiceModel->serviceList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:14:49 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getResultArry()
+[Method: GET, Route: admin/service]
+in APPPATH\Models\Admin\ServiceModel.php on line 15.
+ 1 APPPATH\Controllers\Admin\Service.php(13): App\Models\Admin\ServiceModel->serviceList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:14:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Result::getResultArry()
+[Method: GET, Route: admin/service]
+in APPPATH\Models\Admin\ServiceModel.php on line 15.
+ 1 APPPATH\Controllers\Admin\Service.php(13): App\Models\Admin\ServiceModel->serviceList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:15:06 --> ErrorException: Undefined variable $blogList
+[Method: GET, Route: admin/service]
+in APPPATH\Views\admin\service\index.php on line 63.
+ 1 APPPATH\Views\admin\service\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service/index', [...])
+ 6 APPPATH\Controllers\Admin\Service.php(14): App\Controllers\BaseController->adminFrontendLoad('service/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:15:07 --> ErrorException: Undefined variable $blogList
+[Method: GET, Route: admin/service]
+in APPPATH\Views\admin\service\index.php on line 63.
+ 1 APPPATH\Views\admin\service\index.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blogList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\index.php', 63)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service/index', [...])
+ 6 APPPATH\Controllers\Admin\Service.php(14): App\Controllers\BaseController->adminFrontendLoad('service/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:17:40 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/service/create-service]
+in APPPATH\Controllers\Admin\Service.php on line 17.
+ 1 APPPATH\Controllers\Admin\Service.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->createService()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:17:42 --> ErrorException: Undefined variable $data
+[Method: GET, Route: admin/service/create-service]
+in APPPATH\Controllers\Admin\Service.php on line 17.
+ 1 APPPATH\Controllers\Admin\Service.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->createService()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:26:24 --> ErrorException: Undefined property: App\Controllers\Admin\Service::$ServiceModel
+[Method: POST, Route: admin/service/save]
+in APPPATH\Controllers\Admin\Service.php on line 56.
+ 1 APPPATH\Controllers\Admin\Service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Service::$ServiceModel', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->saveService()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:26:26 --> ErrorException: Undefined property: App\Controllers\Admin\Service::$ServiceModel
+[Method: POST, Route: admin/service/save]
+in APPPATH\Controllers\Admin\Service.php on line 56.
+ 1 APPPATH\Controllers\Admin\Service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Service::$ServiceModel', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->saveService()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:28:34 --> ErrorException: Undefined property: App\Controllers\Admin\Service::$ServiceModel
+[Method: POST, Route: admin/service/save]
+in APPPATH\Controllers\Admin\Service.php on line 56.
+ 1 APPPATH\Controllers\Admin\Service.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Service::$ServiceModel', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->saveService()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:32:40 --> ErrorException: Undefined property: App\Controllers\Admin\Service::$servieModel
+[Method: GET, Route: admin/service/edit-service/1]
+in APPPATH\Controllers\Admin\Service.php on line 70.
+ 1 APPPATH\Controllers\Admin\Service.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin\\Service::$servieModel', 'E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Admin\\Service.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->editService('1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:33:09 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/service/edit-service/1]
+in APPPATH\Views\admin\service\edit-service.php on line 18.
+ 1 APPPATH\Views\admin\service\edit-service.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service/edit-service', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service/edit-service', [...])
+ 6 APPPATH\Controllers\Admin\Service.php(71): App\Controllers\BaseController->adminFrontendLoad('service/edit-service', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->editService('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:33:10 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: admin/service/edit-service/1]
+in APPPATH\Views\admin\service\edit-service.php on line 18.
+ 1 APPPATH\Views\admin\service\edit-service.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service/edit-service', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service/edit-service', [...])
+ 6 APPPATH\Controllers\Admin\Service.php(71): App\Controllers\BaseController->adminFrontendLoad('service/edit-service', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->editService('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:33:31 --> ErrorException: Undefined array key "serviceData_date"
+[Method: GET, Route: admin/service/edit-service/1]
+in APPPATH\Views\admin\service\edit-service.php on line 66.
+ 1 APPPATH\Views\admin\service\edit-service.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serviceData_date"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service/edit-service', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service/edit-service', [...])
+ 6 APPPATH\Controllers\Admin\Service.php(71): App\Controllers\BaseController->adminFrontendLoad('service/edit-service', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->editService('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:33:32 --> ErrorException: Undefined array key "serviceData_date"
+[Method: GET, Route: admin/service/edit-service/1]
+in APPPATH\Views\admin\service\edit-service.php on line 66.
+ 1 APPPATH\Views\admin\service\edit-service.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "serviceData_date"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php', 66)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\service\\edit-service.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/service/edit-service', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/service/edit-service', [...])
+ 6 APPPATH\Controllers\Admin\Service.php(71): App\Controllers\BaseController->adminFrontendLoad('service/edit-service', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->editService('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:44:10 --> Error: Undefined constant "App\Controllers\Admin\redirect"
+[Method: GET, Route: admin/service/updateStatus/1/0]
+in APPPATH\Controllers\Admin\Service.php on line 127.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->updateServiceStatus('1', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:46:27 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php on line 793
+[Method: GET, Route: admin/service/delete-service/2]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3418.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(793): CodeIgniter\Database\BaseBuilder->hasOperator(2)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(709): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', '2', null, 'AND ', true)
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2801): CodeIgniter\Database\BaseBuilder->where('2')
+ 4 APPPATH\Models\Admin\ServiceModel.php(52): CodeIgniter\Database\BaseBuilder->delete('2')
+ 5 APPPATH\Controllers\Admin\Service.php(130): App\Models\Admin\ServiceModel->deleteService('2')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->deleteService('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:46:55 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php on line 793
+[Method: GET, Route: admin/service/delete-service/2]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3418.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(793): CodeIgniter\Database\BaseBuilder->hasOperator(2)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(709): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', '2', null, 'AND ', true)
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2801): CodeIgniter\Database\BaseBuilder->where('2')
+ 4 APPPATH\Models\Admin\ServiceModel.php(53): CodeIgniter\Database\BaseBuilder->delete('2')
+ 5 APPPATH\Controllers\Admin\Service.php(130): App\Models\Admin\ServiceModel->deleteService('2')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->deleteService('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:46:59 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php on line 793
+[Method: GET, Route: admin/service/delete-service/2]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3418.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(793): CodeIgniter\Database\BaseBuilder->hasOperator(2)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(709): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', '2', null, 'AND ', true)
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2801): CodeIgniter\Database\BaseBuilder->where('2')
+ 4 APPPATH\Models\Admin\ServiceModel.php(53): CodeIgniter\Database\BaseBuilder->delete('2')
+ 5 APPPATH\Controllers\Admin\Service.php(130): App\Models\Admin\ServiceModel->deleteService('2')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->deleteService('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:47:09 --> TypeError: CodeIgniter\Database\BaseBuilder::hasOperator(): Argument #1 ($str) must be of type string, int given, called in E:\xampp New\htdocs\kara\system\Database\BaseBuilder.php on line 793
+[Method: GET, Route: admin/service/delete-service/2]
+in SYSTEMPATH\Database\BaseBuilder.php on line 3418.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(793): CodeIgniter\Database\BaseBuilder->hasOperator(2)
+ 2 SYSTEMPATH\Database\BaseBuilder.php(709): CodeIgniter\Database\BaseBuilder->whereHaving('QBWhere', '2', null, 'AND ', true)
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2801): CodeIgniter\Database\BaseBuilder->where('2')
+ 4 APPPATH\Models\Admin\ServiceModel.php(53): CodeIgniter\Database\BaseBuilder->delete('2')
+ 5 APPPATH\Controllers\Admin\Service.php(130): App\Models\Admin\ServiceModel->deleteService('2')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Service->deleteService('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 06:57:51 --> ParseError: syntax error, unexpected double-quoted string " class=", expecting "," or ";"
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 88.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/index', [...])
+ 4 APPPATH\Controllers\Home.php(50): App\Controllers\BaseController->frontendLoad('index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:08:38 --> ErrorException: Undefined variable $blog
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 7.
+ 1 APPPATH\Views\home\service-detail.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $blog', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:09:04 --> ErrorException: Undefined variable $serviceDataCommentList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 44.
+ 1 APPPATH\Views\home\service-detail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataCommentList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:09:12 --> ErrorException: Undefined variable $serviceDataCommentList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 44.
+ 1 APPPATH\Views\home\service-detail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataCommentList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:09:13 --> ErrorException: Undefined variable $serviceDataCommentList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 44.
+ 1 APPPATH\Views\home\service-detail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataCommentList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:09:14 --> ErrorException: Undefined variable $serviceDataCommentList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 44.
+ 1 APPPATH\Views\home\service-detail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataCommentList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:09:14 --> ErrorException: Undefined variable $serviceDataCommentList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 44.
+ 1 APPPATH\Views\home\service-detail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataCommentList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:09:30 --> ErrorException: Undefined variable $serviceDataCommentList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 44.
+ 1 APPPATH\Views\home\service-detail.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataCommentList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:10:01 --> ErrorException: Undefined variable $serviceDataList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 46.
+ 1 APPPATH\Views\home\service-detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:10:03 --> ErrorException: Undefined variable $serviceDataList
+[Method: GET, Route: service/water-treatment-plant]
+in APPPATH\Views\home\service-detail.php on line 46.
+ 1 APPPATH\Views\home\service-detail.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceDataList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\service-detail.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/service-detail', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/service-detail', [...])
+ 6 APPPATH\Controllers\Home.php(95): App\Controllers\BaseController->frontendLoad('service-detail', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->serviceDetail('water-treatment-plant')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:48:18 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(366): App\Controllers\BaseController->frontendLoad('sitemap')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:52:33 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 367.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 07:52:39 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 367.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp New\\htdocs\\kara\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:55:01 --> ArgumentCountError: Too few arguments to function App\Models\HomeModel::productList(), 0 passed in E:\xampp New\htdocs\kara\app\Controllers\Home.php on line 368 and exactly 1 expected
+[Method: GET, Route: sitemap]
+in APPPATH\Models\HomeModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(368): App\Models\HomeModel->productList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:56:16 --> ArgumentCountError: Too few arguments to function App\Models\HomeModel::productList(), 0 passed in E:\xampp New\htdocs\kara\app\Controllers\Home.php on line 368 and exactly 1 expected
+[Method: GET, Route: sitemap]
+in APPPATH\Models\HomeModel.php on line 12.
+ 1 APPPATH\Controllers\Home.php(368): App\Models\HomeModel->productList()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap-xml.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap-xml.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap-xml', [], true)
+ 3 APPPATH\Controllers\Home.php(369): view('sitemap-xml', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap-xml.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap-xml.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap-xml', [], true)
+ 3 APPPATH\Controllers\Home.php(369): view('sitemap-xml', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap-xml.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap-xml.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap-xml', [], true)
+ 3 APPPATH\Controllers\Home.php(369): view('sitemap-xml', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap-xml.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap-xml.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap-xml', [], true)
+ 3 APPPATH\Controllers\Home.php(369): view('sitemap-xml', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap-xml.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap-xml.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap-xml', [], true)
+ 3 APPPATH\Controllers\Home.php(369): view('sitemap-xml', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap-xml.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap-xml.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap-xml', [], true)
+ 3 APPPATH\Controllers\Home.php(369): view('sitemap-xml', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:54 --> ErrorException: Undefined variable $teamList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap-xml.php on line 84.
+ 1 APPPATH\Views\home\sitemap-xml.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teamList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap-xml', [], true)
+ 5 APPPATH\Controllers\Home.php(369): view('home/sitemap-xml', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:54 --> ErrorException: Undefined variable $teamList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap-xml.php on line 84.
+ 1 APPPATH\Views\home\sitemap-xml.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teamList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap-xml', [], true)
+ 5 APPPATH\Controllers\Home.php(369): view('home/sitemap-xml', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:57:54 --> ErrorException: Undefined variable $teamList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap-xml.php on line 84.
+ 1 APPPATH\Views\home\sitemap-xml.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teamList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap-xml', [], true)
+ 5 APPPATH\Controllers\Home.php(369): view('home/sitemap-xml', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:58:12 --> ErrorException: Undefined variable $teamList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap-xml.php on line 84.
+ 1 APPPATH\Views\home\sitemap-xml.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teamList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap-xml', [], true)
+ 5 APPPATH\Controllers\Home.php(369): view('home/sitemap-xml', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 08:58:13 --> ErrorException: Undefined variable $teamList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap-xml.php on line 84.
+ 1 APPPATH\Views\home\sitemap-xml.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $teamList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php', 84)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap-xml.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap-xml', [], true)
+ 5 APPPATH\Controllers\Home.php(369): view('home/sitemap-xml', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemapXml()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:06 --> Error: Call to undefined function App\Controllers\frontendLoad()
+[Method: GET, Route: sitemap]
+in APPPATH\Controllers\Home.php on line 373.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:17 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(373): App\Controllers\BaseController->frontendLoad('sitemap')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:19 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Home.php(373): App\Controllers\BaseController->frontendLoad('sitemap')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap', [], true)
+ 3 APPPATH\Controllers\Home.php(373): view('sitemap')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap', [], true)
+ 3 APPPATH\Controllers\Home.php(373): view('sitemap')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap', [], true)
+ 3 APPPATH\Controllers\Home.php(373): view('sitemap')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap', [], true)
+ 3 APPPATH\Controllers\Home.php(373): view('sitemap')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sitemap', [], true)
+ 3 APPPATH\Controllers\Home.php(373): view('sitemap')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:43 --> ErrorException: Undefined variable $serviceList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 111.
+ 1 APPPATH\Views\home\sitemap.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 111)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(373): view('home/sitemap')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:48:43 --> ErrorException: Undefined variable $serviceList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 111.
+ 1 APPPATH\Views\home\sitemap.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $serviceList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 111)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(373): view('home/sitemap')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:07 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 113.
+ 1 APPPATH\Views\home\sitemap.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:08 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 113.
+ 1 APPPATH\Views\home\sitemap.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:31 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 129.
+ 1 APPPATH\Views\home\sitemap.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:33 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 129.
+ 1 APPPATH\Views\home\sitemap.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 129)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:54 --> ErrorException: Undefined variable $categoryList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 143.
+ 1 APPPATH\Views\home\sitemap.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:55 --> ErrorException: Undefined variable $categoryList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 143.
+ 1 APPPATH\Views\home\sitemap.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:56 --> ErrorException: Undefined variable $categoryList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 143.
+ 1 APPPATH\Views\home\sitemap.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:50:56 --> ErrorException: Undefined variable $categoryList
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 143.
+ 1 APPPATH\Views\home\sitemap.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoryList', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\Home.php(375): view('home/sitemap', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:58:50 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(375): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:25 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:27 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:27 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:27 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:27 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:29 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:33 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:57 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:58 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:58 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:58 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:58 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 09:59:59 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:00:00 --> ErrorException: Undefined variable $title
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\common\header.php on line 5.
+ 1 APPPATH\Views\home\common\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Home.php(378): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:00:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/home/sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home/sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home/sitemap', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/home/sitemap', [...])
+ 4 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:00:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/home/sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home/sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home/sitemap', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/home/sitemap', [...])
+ 4 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:00:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/home/sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home/sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home/sitemap', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/home/sitemap', [...])
+ 4 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:00:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/home/sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home/sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/home/sitemap', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/home/sitemap', [...])
+ 4 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('home/sitemap', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:03:14 --> ErrorException: Undefined variable $contactData
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 58.
+ 1 APPPATH\Views\home\sitemap.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactData', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 58)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/sitemap', [...])
+ 6 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:36:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/sitemap.php"
+[Method: GET, Route: sitemap]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/sitemap.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 3 APPPATH\Controllers\BaseController.php(73): view('home/sitemap', [...])
+ 4 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('sitemap', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 10:37:09 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: sitemap]
+in APPPATH\Views\home\sitemap.php on line 125.
+ 1 APPPATH\Views\home\sitemap.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php', 125)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\home\\sitemap.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/sitemap', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/sitemap', [...])
+ 6 APPPATH\Controllers\Home.php(379): App\Controllers\BaseController->frontendLoad('sitemap', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->sitemap()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-14 12:35:38 --> ErrorException: Undefined array key "phone"
+[Method: GET, Route: admin/address/edit-addess/4]
+in APPPATH\Views\admin\address\edit-address.php on line 64.
+ 1 APPPATH\Views\admin\address\edit-address.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "phone"', 'E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\address\\edit-address.php', 64)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp New\\htdocs\\kara\\app\\Views\\admin\\address\\edit-address.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/address/edit-address', [], true)
+ 5 APPPATH\Controllers\BaseController.php(65): view('admin/address/edit-address', [...])
+ 6 APPPATH\Controllers\Admin\Address.php(40): App\Controllers\BaseController->adminFrontendLoad('address/edit-address', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Address->editAddress('4')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Address))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

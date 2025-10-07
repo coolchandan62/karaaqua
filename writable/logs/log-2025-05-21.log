@@ -1,0 +1,40 @@
+CRITICAL - 2025-05-21 06:30:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "linkedin (1).png"
+[Method: GET, Route: assets/home/img/icons/linkedin%20%281%29.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('assets/home/img/icons/linkedin (1).png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('assets/home/img/icons/linkedin (1).png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-21 06:31:56 --> ErrorException: Undefined variable $contactDetail
+[Method: GET, Route: /]
+in APPPATH\Views\home\common\footer.php on line 59.
+ 1 APPPATH\Views\home\common\footer.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contactDetail', 'E:\\xampp\\htdocs\\kara\\app\\Views\\home\\common\\footer.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara\\app\\Views\\home\\common\\footer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/footer', [], true)
+ 5 APPPATH\Controllers\BaseController.php(74): view('home/common/footer', [...])
+ 6 APPPATH\Controllers\Home.php(52): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-21 07:46:57 --> ErrorException: Undefined variable $data
+[Method: GET, Route: /]
+in APPPATH\Views\home\index.php on line 283.
+ 1 APPPATH\Views\home\index.php(283): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\kara\\app\\Views\\home\\index.php', 283)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara\\app\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/index', [...])
+ 6 APPPATH\Controllers\Home.php(53): App\Controllers\BaseController->frontendLoad('index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

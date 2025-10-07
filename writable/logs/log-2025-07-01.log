@@ -1,0 +1,229 @@
+CRITICAL - 2025-07-01 04:50:47 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 04:51:47 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 04:51:47 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 04:52:49 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 04:53:15 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Controllers\Dashboard.php on line 24.
+ 1 APPPATH\Controllers\Dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 05:20:00 --> ErrorException: Undefined variable $userdData
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Views\dashboard\user-dashboard.php on line 11.
+ 1 APPPATH\Views\dashboard\user-dashboard.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdData', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\user-dashboard.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\user-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/user-dashboard', [], true)
+ 5 APPPATH\Controllers\BaseController.php(80): view('dashboard/user-dashboard', [...])
+ 6 APPPATH\Controllers\Dashboard.php(35): App\Controllers\BaseController->dashboardLoad('user-dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 05:21:12 --> ErrorException: Undefined variable $userdData
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Views\dashboard\user-dashboard.php on line 12.
+ 1 APPPATH\Views\dashboard\user-dashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdData', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\user-dashboard.php', 12)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\user-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/user-dashboard', [], true)
+ 5 APPPATH\Controllers\BaseController.php(80): view('dashboard/user-dashboard', [...])
+ 6 APPPATH\Controllers\Dashboard.php(33): App\Controllers\BaseController->dashboardLoad('user-dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-01 06:55:58 --> mysqli_sql_exception: Unknown column 'user_name' in 'field list' in E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `user` S...', 0)
+#1 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` S...')
+#2 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` S...')
+#3 E:\xampp\htdocs\kara-aqua\system\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `user` S...', Array, false)
+#4 E:\xampp\htdocs\kara-aqua\app\Models\DashboardModel.php(15): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\kara-aqua\app\Controllers\Dashboard.php(95): App\Models\DashboardModel->updateUser('5', Array)
+#6 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(933): App\Controllers\Dashboard->updateUserData()
+#7 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\kara-aqua\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\kara-aqua\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp\htdocs\kara-aqua\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-07-01 06:55:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_name' in 'field list'
+[Method: POST, Route: dashboard/updateUserData]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `user_name` = :user_name:, `city` = :city:, `state` = :state:, `pincode` = :pincode:, `address` = :address:, `image` = :image:
+WHERE `id` = :id:', [...], false)
+ 2 APPPATH\Models\DashboardModel.php(15): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Dashboard.php(95): App\Models\DashboardModel->updateUser('5', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->updateUserData()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 06:55:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` SET `user_name` = \'pooja maurya\', `city` = \'Sirathu\', `state` = \'Uttar pradesh\', `pincode` = \'212217\', `address` = \'naya nagar word no .... \', `image` = \'1750936669 (3).png\'
+WHERE `id` = \'5\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` SET `user_name` = \'pooja maurya\', `city` = \'Sirathu\', `state` = \'Uttar pradesh\', `pincode` = \'212217\', `address` = \'naya nagar word no .... \', `image` = \'1750936669 (3).png\'
+WHERE `id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `user_name` = :user_name:, `city` = :city:, `state` = :state:, `pincode` = :pincode:, `address` = :address:, `image` = :image:
+WHERE `id` = :id:', [...], false)
+ 4 APPPATH\Models\DashboardModel.php(15): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Controllers\Dashboard.php(95): App\Models\DashboardModel->updateUser('5', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->updateUserData()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 06:55:58 --> [Caused by] mysqli_sql_exception: Unknown column 'user_name' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `user` SET `user_name` = \'pooja maurya\', `city` = \'Sirathu\', `state` = \'Uttar pradesh\', `pincode` = \'212217\', `address` = \'naya nagar word no .... \', `image` = \'1750936669 (3).png\'
+WHERE `id` = \'5\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user` SET `user_name` = \'pooja maurya\', `city` = \'Sirathu\', `state` = \'Uttar pradesh\', `pincode` = \'212217\', `address` = \'naya nagar word no .... \', `image` = \'1750936669 (3).png\'
+WHERE `id` = \'5\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user` SET `user_name` = \'pooja maurya\', `city` = \'Sirathu\', `state` = \'Uttar pradesh\', `pincode` = \'212217\', `address` = \'naya nagar word no .... \', `image` = \'1750936669 (3).png\'
+WHERE `id` = \'5\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `user` SET `user_name` = :user_name:, `city` = :city:, `state` = :state:, `pincode` = :pincode:, `address` = :address:, `image` = :image:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\DashboardModel.php(15): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Dashboard.php(95): App\Models\DashboardModel->updateUser('5', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->updateUserData()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 07:00:21 --> ErrorException: Undefined variable $userdData
+[Method: GET, Route: dashboard/user-dashboard]
+in APPPATH\Views\dashboard\user-dashboard.php on line 5.
+ 1 APPPATH\Views\dashboard\user-dashboard.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userdData', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\user-dashboard.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\user-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/user-dashboard', [], true)
+ 5 APPPATH\Controllers\BaseController.php(80): view('dashboard/user-dashboard', [...])
+ 6 APPPATH\Controllers\Dashboard.php(33): App\Controllers\BaseController->dashboardLoad('user-dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->userDashboard()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 07:01:39 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: dashboard/change-password]
+in APPPATH\Views\dashboard\common\header.php on line 135.
+ 1 APPPATH\Views\dashboard\common\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\common\\header.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(79): view('dashboard/common/header', [...])
+ 6 APPPATH\Controllers\Dashboard.php(65): App\Controllers\BaseController->dashboardLoad('change-password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->changePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 07:02:18 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: dashboard/change-password]
+in APPPATH\Views\dashboard\common\header.php on line 135.
+ 1 APPPATH\Views\dashboard\common\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\common\\header.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(79): view('dashboard/common/header', [...])
+ 6 APPPATH\Controllers\Dashboard.php(65): App\Controllers\BaseController->dashboardLoad('change-password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->changePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 07:02:49 --> ErrorException: Undefined variable $userData
+[Method: GET, Route: dashboard/edit-profile]
+in APPPATH\Views\dashboard\common\header.php on line 135.
+ 1 APPPATH\Views\dashboard\common\header.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userData', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\common\\header.php', 135)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(79): view('dashboard/common/header', [...])
+ 6 APPPATH\Controllers\Dashboard.php(77): App\Controllers\BaseController->dashboardLoad('user-dashboard-edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->editProfile()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 07:10:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: dashboard/change-password]
+in APPPATH\Views\dashboard\change-password.php on line 8.
+ 1 APPPATH\Views\dashboard\change-password.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\change-password.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\dashboard\\change-password.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/change-password', [], true)
+ 5 APPPATH\Controllers\BaseController.php(80): view('dashboard/change-password', [...])
+ 6 APPPATH\Controllers\Dashboard.php(65): App\Controllers\BaseController->dashboardLoad('change-password', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->changePassword()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-01 07:31:10 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: dashboard/orders]
+in APPPATH\Controllers\Dashboard.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

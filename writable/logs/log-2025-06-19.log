@@ -1,0 +1,688 @@
+CRITICAL - 2025-06-19 05:15:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(116): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:15:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(116): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:20:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(116): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:23:52 --> ErrorException: Undefined variable $amountInPaise
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 73.
+ 1 APPPATH\Controllers\Payment.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amountInPaise', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:23:58 --> ErrorException: Undefined variable $amountInPaise
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 73.
+ 1 APPPATH\Controllers\Payment.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amountInPaise', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:24:15 --> ErrorException: Undefined variable $amountInPaise
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 73.
+ 1 APPPATH\Controllers\Payment.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $amountInPaise', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:24:47 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:24:47 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:24:49 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:26:18 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:27:10 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:32:25 --> ErrorException: require_once(E:\xampp\htdocs\kara-aqua\app\ThirdParty/razorpay/config.php): Failed to open stream: No such file or directory
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 38.
+ 1 APPPATH\Controllers\Payment.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(E:\\xampp\\htdocs\\kara-aqua\\app\\ThirdParty/razorpay/config.php): Failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 38)
+ 2 APPPATH\Controllers\Payment.php(38): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:32:29 --> ErrorException: require_once(E:\xampp\htdocs\kara-aqua\app\ThirdParty/razorpay/config.php): Failed to open stream: No such file or directory
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 38.
+ 1 APPPATH\Controllers\Payment.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(E:\\xampp\\htdocs\\kara-aqua\\app\\ThirdParty/razorpay/config.php): Failed to open stream: No such file or directory', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 38)
+ 2 APPPATH\Controllers\Payment.php(38): require_once()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:39:50 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:43:10 --> Error: Object of class Razorpay\Api\Api could not be converted to string
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 65.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:45:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(111): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:45:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(110): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:49:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(109): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:49:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(109): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:49:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(109): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:49:58 --> ErrorException: Undefined array key "display_amount"
+[Method: POST, Route: razorpay/createOrder]
+in APPPATH\Controllers\Payment.php on line 107.
+ 1 APPPATH\Controllers\Payment.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "display_amount"', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Controllers\\Payment.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:50:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(110): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:50:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(105): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:50:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(105): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:50:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(105): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 05:51:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "razorpay/checkout/automatic.php"
+[Method: POST, Route: razorpay/createOrder]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('razorpay/checkout/automatic.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('razorpay/checkout/automatic', [], true)
+ 3 APPPATH\Controllers\Payment.php(105): view('razorpay/checkout/automatic', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->createOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 07:00:58 --> ErrorException: Undefined variable $title
+[Method: POST, Route: checkoutOrder]
+in APPPATH\Views\home\common\header.php on line 9.
+ 1 APPPATH\Views\home\common\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Payment.php(199): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkoutOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 07:01:04 --> ErrorException: Undefined variable $title
+[Method: POST, Route: checkoutOrder]
+in APPPATH\Views\home\common\header.php on line 9.
+ 1 APPPATH\Views\home\common\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Payment.php(199): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkoutOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 07:01:51 --> ErrorException: Undefined variable $title
+[Method: POST, Route: checkoutOrder]
+in APPPATH\Views\home\common\header.php on line 9.
+ 1 APPPATH\Views\home\common\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Payment.php(199): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkoutOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 07:04:20 --> ErrorException: Undefined variable $title
+[Method: POST, Route: checkoutOrder]
+in APPPATH\Views\home\common\header.php on line 9.
+ 1 APPPATH\Views\home\common\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Payment.php(203): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkoutOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 07:19:38 --> ErrorException: Undefined variable $title
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\common\header.php on line 9.
+ 1 APPPATH\Views\home\common\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [])
+ 6 APPPATH\Controllers\Payment.php(197): App\Controllers\BaseController->frontendLoad('checkout')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 09:08:30 --> Error: Call to undefined function productById()
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 5.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 4 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 5 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 09:12:36 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 5.
+ 1 APPPATH\Views\home\checkout.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 09:14:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 27.
+ 1 APPPATH\Views\home\checkout.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 09:22:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 26.
+ 1 APPPATH\Views\home\checkout.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:28:29 --> BadMethodCallException: Call to undefined method App\Models\HomeModel::saveOrderData
+[Method: POST, Route: saveorder]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\Payment.php(231): CodeIgniter\Model->__call('saveOrderData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:28:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 26.
+ 1 APPPATH\Views\home\checkout.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:28:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 26.
+ 1 APPPATH\Views\home\checkout.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:28:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 26.
+ 1 APPPATH\Views\home\checkout.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:29:00 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 26.
+ 1 APPPATH\Views\home\checkout.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-19 10:47:44 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\kara-aqua\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\kara-aqua\app\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\kara-aqua\app\Controllers\Payment.php(241): App\Models\HomeModel->saveOrderInfo(Array)
+#6 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+#7 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#8 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\kara-aqua\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\kara-aqua\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp\htdocs\kara-aqua\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-19 10:47:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'field list'
+[Method: POST, Route: saveorder]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (:product_id:, :product_price:, :qty:, :user_id:, :cart_id:, :first_name:, :last_name:, :address:, :city:, :state:, :zip_code:, :email_id:, :mobile_number:, :amount:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Payment.php(241): App\Models\HomeModel->saveOrderInfo([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:47:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (\'38\', 0, 1, \'5\', \'198i6a19ogoviucjs3vqifolci4b3pfc\', \'pooja maurya\', \'fdgd\', \'gdgdg\', \'dfgdgdgdfgd\', \'dgdfgd2\', \'232321\', \'pm402632@gmail.com\', \'9090909099\', 17700)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (\'38\', 0, 1, \'5\', \'198i6a19ogoviucjs3vqifolci4b3pfc\', \'pooja maurya\', \'fdgd\', \'gdgdg\', \'dfgdgdgdfgd\', \'dgdfgd2\', \'232321\', \'pm402632@gmail.com\', \'9090909099\', 17700)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (:product_id:, :product_price:, :qty:, :user_id:, :cart_id:, :first_name:, :last_name:, :address:, :city:, :state:, :zip_code:, :email_id:, :mobile_number:, :amount:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Payment.php(241): App\Models\HomeModel->saveOrderInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 10:47:44 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (\'38\', 0, 1, \'5\', \'198i6a19ogoviucjs3vqifolci4b3pfc\', \'pooja maurya\', \'fdgd\', \'gdgdg\', \'dfgdgdgdfgd\', \'dgdfgd2\', \'232321\', \'pm402632@gmail.com\', \'9090909099\', 17700)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (\'38\', 0, 1, \'5\', \'198i6a19ogoviucjs3vqifolci4b3pfc\', \'pooja maurya\', \'fdgd\', \'gdgdg\', \'dfgdgdgdfgd\', \'dgdfgd2\', \'232321\', \'pm402632@gmail.com\', \'9090909099\', 17700)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (\'38\', 0, 1, \'5\', \'198i6a19ogoviucjs3vqifolci4b3pfc\', \'pooja maurya\', \'fdgd\', \'gdgdg\', \'dfgdgdgdfgd\', \'dgdfgd2\', \'232321\', \'pm402632@gmail.com\', \'9090909099\', 17700)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `cart_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `amount`) VALUES (:product_id:, :product_price:, :qty:, :user_id:, :cart_id:, :first_name:, :last_name:, :address:, :city:, :state:, :zip_code:, :email_id:, :mobile_number:, :amount:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Payment.php(241): App\Models\HomeModel->saveOrderInfo([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-19 11:14:17 --> mysqli_sql_exception: Unknown column 'mobile_number' in 'field list' in E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 E:\xampp\htdocs\kara-aqua\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `or...', 0)
+#1 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 E:\xampp\htdocs\kara-aqua\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 E:\xampp\htdocs\kara-aqua\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 E:\xampp\htdocs\kara-aqua\app\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\kara-aqua\app\Controllers\Payment.php(243): App\Models\HomeModel->saveOrderInfo(Array)
+#6 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+#7 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#8 E:\xampp\htdocs\kara-aqua\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\kara-aqua\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\kara-aqua\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 E:\xampp\htdocs\kara-aqua\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-19 11:14:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mobile_number' in 'field list'
+[Method: POST, Route: saveorder]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (:product_id:, :product_price:, :qty:, :user_id:, :first_name:, :last_name:, :address:, :city:, :state:, :zip_code:, :email_id:, :mobile_number:, :receipt_id:, :total_amount:)', [...], false)
+ 2 APPPATH\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Payment.php(243): App\Models\HomeModel->saveOrderInfo([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 11:14:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'mobile_number' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (\'38\', 0, 1, \'5\', \'pooja maurya\', \'hfghf\', \'fghfghfghfg\', \'hfghfghfg\', \'hfghfghf\', \'546456456\', \'pm402632@gmail.com\', \'9090909099\', \'order_rcptid_1750331657\', 17700)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (\'38\', 0, 1, \'5\', \'pooja maurya\', \'hfghf\', \'fghfghfghfg\', \'hfghfghfg\', \'hfghfghf\', \'546456456\', \'pm402632@gmail.com\', \'9090909099\', \'order_rcptid_1750331657\', 17700)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (:product_id:, :product_price:, :qty:, :user_id:, :first_name:, :last_name:, :address:, :city:, :state:, :zip_code:, :email_id:, :mobile_number:, :receipt_id:, :total_amount:)', [...], false)
+ 4 APPPATH\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH\Controllers\Payment.php(243): App\Models\HomeModel->saveOrderInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 11:14:17 --> [Caused by] mysqli_sql_exception: Unknown column 'mobile_number' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (\'38\', 0, 1, \'5\', \'pooja maurya\', \'hfghf\', \'fghfghfghfg\', \'hfghfghfg\', \'hfghfghf\', \'546456456\', \'pm402632@gmail.com\', \'9090909099\', \'order_rcptid_1750331657\', 17700)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (\'38\', 0, 1, \'5\', \'pooja maurya\', \'hfghf\', \'fghfghfghfg\', \'hfghfghfg\', \'hfghfghf\', \'546456456\', \'pm402632@gmail.com\', \'9090909099\', \'order_rcptid_1750331657\', 17700)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (\'38\', 0, 1, \'5\', \'pooja maurya\', \'hfghf\', \'fghfghfghfg\', \'hfghfghfg\', \'hfghfghf\', \'546456456\', \'pm402632@gmail.com\', \'9090909099\', \'order_rcptid_1750331657\', 17700)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO `order_info` (`product_id`, `product_price`, `qty`, `user_id`, `first_name`, `last_name`, `address`, `city`, `state`, `zip_code`, `email_id`, `mobile_number`, `receipt_id`, `total_amount`) VALUES (:product_id:, :product_price:, :qty:, :user_id:, :first_name:, :last_name:, :address:, :city:, :state:, :zip_code:, :email_id:, :mobile_number:, :receipt_id:, :total_amount:)', [...], false)
+ 5 APPPATH\Models\HomeModel.php(254): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Payment.php(243): App\Models\HomeModel->saveOrderInfo([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->saveOrder()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 11:15:51 --> ErrorException: Undefined variable $title
+[Method: GET, Route: payment]
+in APPPATH\Views\home\common\header.php on line 9.
+ 1 APPPATH\Views\home\common\header.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\common\\header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/common/header', [], true)
+ 5 APPPATH\Controllers\BaseController.php(72): view('home/common/header', [...])
+ 6 APPPATH\Controllers\Payment.php(255): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 13:14:30 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 52.
+ 1 APPPATH\Views\home\checkout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 13:14:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: checkout]
+in APPPATH\Views\home\checkout.php on line 52.
+ 1 APPPATH\Views\home\checkout.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php', 52)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\checkout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/checkout', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/checkout', [...])
+ 6 APPPATH\Controllers\Payment.php(202): App\Controllers\BaseController->frontendLoad('checkout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->checkout()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 13:16:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ route('razorpay.payment.store') }}"
+[Method: POST, Route: %7B%7B%20route%28%27razorpay.payment.store%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ route(\'razorpay.payment.store\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ route(\'razorpay.payment.store\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 13:21:20 --> ErrorException: Undefined variable $data
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 34.
+ 1 APPPATH\Views\home\payment.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(261): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 13:21:36 --> ErrorException: Undefined variable $data
+[Method: GET, Route: payment]
+in APPPATH\Views\home\payment.php on line 34.
+ 1 APPPATH\Views\home\payment.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\xampp\\htdocs\\kara-aqua\\app\\Views\\home\\payment.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('home/payment', [], true)
+ 5 APPPATH\Controllers\BaseController.php(73): view('home/payment', [...])
+ 6 APPPATH\Controllers\Payment.php(261): App\Controllers\BaseController->frontendLoad('payment', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->payment()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-19 13:23:00 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "{{ route('razorpay.payment.store') }}"
+[Method: POST, Route: %7B%7B%20route%28%27razorpay.payment.store%27%29%20%7D%7D]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('{{ route(\'razorpay.payment.store\') }}')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('{{ route(\'razorpay.payment.store\') }}')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

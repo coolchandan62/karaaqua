@@ -1,0 +1,15 @@
+CRITICAL - 2025-04-17 09:11:00 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: product/water-cooler]
+in APPPATH/Views/home/product-details.php on line 129.
+ 1 APPPATH/Views/home/product-details.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(234): include('/home/u324612448/domains/karaaqua.com/public_html/app/Views/home/product-details.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/BaseController.php(73): view()
+ 6 APPPATH/Controllers/Home.php(265): App\Controllers\BaseController->frontendLoad()
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->productDetails()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()

@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Test binary, built with `go test -c`
+*.test
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+*.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+*.kate-swp
+*.kate-swp.*
+*.~lock.*
+Thumbs.db
+.DS_Store
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Log files --
+/log/*.log
+
+# Cache and session files
+/writable/cache/
+/writable/session/
+/images/profile_pic/
+
+# Miscellaneous
+composer.lock
+.env.backup
+.env.example
+.env.testing
+.env.testing.backup
+.env.local
+.env.local.backup
+.env.development
+.env.development.backup
+.env.staging
+.env.staging.backup
+.env.production
+.env.production.backup
+
+# Ignore configuration files
+/app/Config/Database.php
+/app/Config/App.php
+/.htaccess
